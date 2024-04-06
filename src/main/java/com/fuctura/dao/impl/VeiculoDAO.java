@@ -2,14 +2,14 @@ package com.fuctura.dao.impl;
 
 import java.util.List;
 
-import com.fuctura.dao.IVeiculoDao;
+import com.fuctura.dao.IVeiculoDAO;
 import com.fuctura.model.Veiculo;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-public class VeiculoDAO implements IVeiculoDao {
+public class VeiculoDAO implements IVeiculoDAO {
 
 	private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("FUCTURA-PU");
 	private EntityManager entityManager = entityManagerFactory.createEntityManager();

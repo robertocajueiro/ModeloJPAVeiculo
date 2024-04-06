@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.fuctura.model.Veiculo;
 
-public interface IVeiculoDao {
+public interface IVeiculoDAO {
 	
 	void salvar(Veiculo veiculo);
 	Veiculo buscarPorId(Long id);
