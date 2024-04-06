@@ -1,0 +1,2 @@
+insert into tb_veiculo (anoFabricacao, marca, modelo, preco) values (2019, 'Ford', 'New Fiest', 40000);
+insert into tb_veiculo (anoFabricacao, marca, modelo, preco) values (2009, 'Honda', 'Honda Civic', 35000);
